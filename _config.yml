@@ -1,0 +1,22 @@
+title: Yifan Wu
+subtitle: Multimodal AI for Earth Observation
+description: Yifan Wu is a telecommunications engineering student working on vision-language learning, remote sensing, and intelligent systems.
+author: Yifan Wu
+language: en
+timezone: Asia/Shanghai
+url: https://wyfbean.github.io
+root: /
+permalink: :title/
+theme: profile
+
+skip_render:
+  - robots.txt
+
+deploy:
+  type: ""
+
+highlight:
+  enable: false
+
+prismjs:
+  enable: false
