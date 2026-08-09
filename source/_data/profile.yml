@@ -1,0 +1,99 @@
+name: Yifan Wu
+initials: YW
+eyebrow: Telecommunications Engineering · Multimodal AI
+headline: Building intelligent systems that connect satellite imagery, language, and the physical world.
+summary: I am an undergraduate at Beijing University of Posts and Telecommunications, focused on multimodal representation learning, Earth observation, and applied AI systems. My work spans remote-sensing vision-language alignment, open-vocabulary visual understanding, speech representation learning, and agentic intelligence platforms.
+email: wyf20050805@bupt.edu.cn
+github: https://github.com/wyfbean
+github_label: wyfbean
+avatar: https://avatars.githubusercontent.com/u/83335052?v=4
+
+education:
+  institution: Beijing University of Posts and Telecommunications
+  location: Beijing, China
+  degree: B.Eng. Candidate in Telecommunications Engineering with Management
+  dates: Sep. 2023 — Expected Jul. 2027
+  coursework:
+    - Principles of Communications
+    - Digital Signal Processing
+    - Digital System Design
+    - Database Systems
+    - Data Structures and Algorithms
+
+research:
+  title: Vision-Language Alignment for Satellite Imagery
+  subtitle: SAR · RGB · Multispectral
+  role: First Author
+  status: Submitted to AAAI 2027 · Under Review
+  repository: https://github.com/wyfbean/SATEncoder
+  repository_label: SATEncoder
+  description: Proposed PANORAMA, a multimodal representation-learning framework that transfers language-aligned semantics from a frozen RGB vision-language model to independent SAR and multispectral encoders using co-registered imagery.
+  methods:
+    - Bidirectional global contrastive learning
+    - Cross-modal patch alignment
+    - DINO/iBOT++ self-distillation with a full-model EMA teacher
+  results:
+    - value: "46.23 / 33.01"
+      label: mAP@100 for MS / SAR category-text retrieval
+    - value: "36.12% / 47.58%"
+      label: R@1 for RGB-SAR / RGB-MS retrieval
+    - value: "46.54"
+      label: mAP with tri-modal fusion
+  benchmarks: GEO-Bench · BigEarthNet-MM · Copernicus-Bench · Sen1Floods11
+
+projects:
+  - title: Satellite Intelligence and Remote-Sensing Command Platform
+    dates: Jun. 2026 — Jul. 2026
+    role: Full-Stack Developer
+    link: https://github.com/wyfbean/satintel-command-center
+    link_label: View SatIntel Command Center
+    description: Built a satellite intelligence platform for multi-source aggregation, multi-agent collaboration, knowledge retrieval, and 3D orbital visualization.
+    highlights:
+      - Developed a decoupled Next.js 16, React 19, TypeScript, and FastAPI system with CrewAI, CopilotKit, AG-UI, and MCP.
+      - Streamed agent outputs and tool calls over SSE, with live-LLM and deterministic mock modes plus automatic fallback.
+      - Imported approximately 7,500 satellite records into a Kuzu knowledge graph and exposed structured queries through MCP.
+    tags:
+      - Next.js
+      - FastAPI
+      - CrewAI
+      - MCP
+      - Knowledge Graphs
+  - title: Parkinson's Disease Voice-Assisted Screening
+    dates: Jul. 2025 — Mar. 2026
+    role: Algorithm Researcher
+    description: Developed an interpretable voice-screening model that combines raw-audio classification with discrete speech representations and reconstruction analysis.
+    highlights:
+      - Built an end-to-end Wav2Vec 2.0 classifier for risk estimation from phonation, speaking-rate, prosodic, and spectral characteristics.
+      - Quantized speech representations with VQ-VAE, reconstructed audio with L1/L2 losses, and compared Mel spectrograms to identify decision-related time-frequency patterns.
+    tags:
+      - Wav2Vec 2.0
+      - VQ-VAE
+      - Speech AI
+      - Explainability
+  - title: Traffic-Scene Understanding with Vision Foundation Models
+    dates: Oct. 2023 — Jun. 2024
+    role: Algorithm Engineer
+    description: Created a zero-shot instance-segmentation and video-editing pipeline for traffic scenes.
+    highlights:
+      - Combined GroundingDINO language-guided boxes with SAM masks to segment unseen traffic-object categories without new annotations or fine-tuning.
+      - Used pixel-accurate masks as spatial constraints for Stable Diffusion Inpainting to enable text-guided, visually consistent object replacement.
+    tags:
+      - SAM
+      - GroundingDINO
+      - Stable Diffusion
+      - Open-Vocabulary Vision
+
+awards:
+  - Third Prize, National College Mathematics Competition
+  - Second Prize, National English Competition for College Students
+  - BUPT Third-Class Scholarship
+
+strengths:
+  - Vision-language learning
+  - Remote sensing
+  - Self-supervised learning
+  - Speech representation
+  - Full-stack AI systems
+  - Multi-agent orchestration
+
+language: "Advanced English proficiency · CET-6: 617"
